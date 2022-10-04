@@ -1,12 +1,12 @@
 # Efeito-Super-Maquina
-Projeto de simulação do efeito super máquina do filme Knight Rider, com um arduino e 10 leds e 10 resistores.
+<p>Projeto de simulação do efeito super máquina do filme Knight Rider, com um arduino e 10 leds e 10 resistores.</p>
 
 <a href="https://youtu.be/FOOIL2AnH4E">Vídeo de funcionamento</a>
 
-<h2>Explicação do funcionamento:</h2><br>
+<h2>Explicação do funcionamento:</h2>
  O efeito super máquina é produzido com o funcionamento de um circuito controlado por um Arduino. O sistema é composto por 10 leds e 10 resistores de 330 ohms, cada uma ligado à sua porta referente no Arduino.<br>
 Para que haja o efeito o Arduino manda um sinal para o primeiro led da direita para a esquerda seja aceso por 0,166 segundos, logo em seguida ele manda outro sinal para o primeiro e segundo led, depois para o primeiro, segundo e terceiro led, e continua com o ciclo de acionar 3 leds ao mesmo tempo 8 vezes, depois aciona o último e o penúltimo, e por fim somente o penúltimo.<br>
-Quando ele finaliza a sequência de acender os leds da direita para esquerda, ele começa a sequência contraria, da esquerda para a direita. Cada sequência sendo essa no tempo de 2 segundos, totalizando no total de ida e volta 4 segundos.<br><br>
+Quando ele finaliza a sequência de acender os leds da direita para esquerda, ele começa a sequência contraria, da esquerda para a direita. Cada sequência sendo essa no tempo de 2 segundos, totalizando no total de ida e volta 4 segundos.<br>
 <h2>Ordem de acionamento dos leds da direita para a esquerda:</h2>
 <ul>
   <li>D10</li>
@@ -40,10 +40,10 @@ Quando ele finaliza a sequência de acender os leds da direita para esquerda, el
 </ul>
 
 <h2>Hardware:</h2>
-<img src=""/>
+<img src="hardware.jpg"/>
  
 <h2>Lista de componentes:</h2>
-<img src=""/>
+<img src="componentes.jpg"/>
 
 <h2>Código: </h2>
 
