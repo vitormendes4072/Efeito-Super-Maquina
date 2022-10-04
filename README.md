@@ -40,10 +40,10 @@ Quando ele finaliza a sequência de acender os leds da direita para esquerda, el
 </ul>
 
 <h2>Hardware:</h2>
-<img src="hardware.jpg"/>
+<img src="hardware.png"/>
  
 <h2>Lista de componentes:</h2>
-<img src="componentes.jpg"/>
+<img src="componentes.png"/>
 
 <h2>Código: </h2>
 
